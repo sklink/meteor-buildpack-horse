@@ -109,6 +109,10 @@ function METEOR {
   HOME="$METEOR_DIR" "$METEOR_DIR/.meteor/meteor" $ARGS
 }
 
+# Import btg:rubick using MGP
+npm install -g mgp
+mgp
+
 #
 # Build the meteor app!
 #
