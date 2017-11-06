@@ -94,6 +94,9 @@ fi
 #
 # Install meteor
 #
+#
+
+PATH=$PATH:$HOME/.meteor
 
 # Install the latest meteor, and rely on meteor to upgrade/downgrade itself to
 # the .meteor/release target.
